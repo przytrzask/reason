@@ -9,25 +9,13 @@ var bool = Pervasives.bool_of_string("true");
 
 var and_ = Pervasives.bool_of_string("true") && true;
 
-var or_ = Pervasives.bool_of_string("false") && false;
+console.log("endlne");
 
-var print = Pervasives.print_int(44);
+console.log("Vienna");
 
-console.log(2);
+var home = "Warsaw";
 
-console.log($$float);
-
-console.log(true);
-
-console.log(true);
-
-console.log(bool);
-
-console.log(and_);
-
-console.log(or_);
-
-console.log(print);
+console.log(home);
 
 var sum = 2;
 
@@ -41,6 +29,5 @@ exports.smaller = smaller;
 exports.bigger = bigger;
 exports.bool = bool;
 exports.and_ = and_;
-exports.or_ = or_;
-exports.print = print;
+exports.home = home;
 /* bool Not a pure module */

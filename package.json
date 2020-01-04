@@ -5,7 +5,6 @@
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world"
-    
   },
   "keywords": [
     "BuckleScript"
